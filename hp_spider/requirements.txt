@@ -1,3 +1,4 @@
+awslambdaric
 scrapegraphai
 async-timeout
 beautifulsoup4

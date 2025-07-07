@@ -18,6 +18,9 @@ Resources:
       PackageType: Image
       Architectures:
       - x86_64
+      Environment:
+        Variables:
+          PLAYWRIGHT_BROWSERS_PATH: /playwright
     Metadata:
       Dockerfile: Dockerfile
       DockerContext: ./hp_spider
